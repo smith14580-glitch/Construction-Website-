@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Construction Co. logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#D99A36"/>
+      <stop offset="1" stop-color="#f4ca7c"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#151515"/>
+  <path d="M43 21.5a14.5 14.5 0 1 0 0 21" fill="none" stroke="url(#g)" stroke-width="6" stroke-linecap="round"/>
+  <rect x="40" y="39" width="12" height="5" rx="2.5" fill="#D99A36"/>
+</svg>
