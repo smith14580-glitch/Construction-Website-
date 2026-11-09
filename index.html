@@ -237,6 +237,85 @@ body.ur .hero-cap{letter-spacing:0;text-transform:none;font-size:14px}
 [dir="rtl"] .to-top{right:auto;left:24px}
 @media(max-width:920px){.navbar{gap:12px}}
 @media(max-width:560px){.lang-switch span{padding:5px 8px;font-size:11.5px}.lang-switch span.ls-ur{font-size:12.5px}.logo b{font-size:14px}}
+/* ===== Mobile responsiveness refinements ===== */
+@media(max-width:860px){ .panel[style*="sticky"]{position:static!important;top:auto!important} }
+@media(max-width:700px){
+  .wrap{padding-left:16px;padding-right:16px}
+  .navbar{gap:8px;padding:10px 0}
+  .logo{flex-shrink:1;min-width:0;gap:8px}
+  .logo>span{min-width:0;overflow:hidden}
+  .logo>span>span{display:none}
+  .logo-mark{width:36px;height:36px;font-size:17px}
+  .logo b{font-size:13px;letter-spacing:.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+  .lang-switch{padding:2px}
+  .lang-switch span{padding:5px 7px;font-size:11px}
+  .lang-switch span.ls-ur{font-size:12px}
+  .burger{padding:8px}
+  .topbar{font-size:11.5px}
+  .topbar .wrap{justify-content:center;text-align:center;gap:2px;padding-top:5px;padding-bottom:5px}
+  .topbar .wrap>span:first-child{display:none}
+  .sec{padding:54px 0}
+  .sec-head{margin-bottom:28px}
+  .sec-head h2{font-size:clamp(24px,6.8vw,32px)}
+  .hero-in{padding:48px 0 150px}
+  .hero h1{font-size:clamp(30px,8.6vw,44px)}
+  .hero p{font-size:15.5px}
+  .hero-ctas{gap:10px;margin-top:22px}
+  .hero-ctas .btn{flex:1 1 100%;justify-content:center}
+  .hero-points{font-size:13px;gap:10px;margin-top:20px}
+  .hero-slider-bar{padding:0 14px 14px;gap:8px;flex-wrap:nowrap}
+  .hero-cap{max-width:calc(100% - 100px);min-width:0;font-size:10.5px;padding:8px 11px}
+  .hero-cap #heroCapText{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .hero-nav button{width:38px;height:38px}
+  .pagehero{padding:42px 0 36px}
+  .pagehero h1{font-size:clamp(26px,7vw,36px)}
+  .pagehero p{font-size:14.5px}
+  .crumbs{font-size:12px;margin-bottom:10px}
+  .grid{gap:16px}
+  .card .bd{padding:16px}
+  .feat,.step,.testi,.panel{padding:20px}
+  .split{gap:26px}
+  .fgrid{gap:12px}
+  input,select,textarea{font-size:16px}
+  .kv{flex-direction:column;gap:2px;align-items:flex-start}
+  .kv b{text-align:left}
+  .filters{gap:7px;margin-bottom:22px}
+  .pill{padding:8px 14px;font-size:13px;min-height:42px}
+  .ba{aspect-ratio:4/3}
+  .ba .lbl{font-size:9.5px;padding:4px 7px;letter-spacing:.06em}
+  .overlay{padding:12px}
+  .overlay .x{top:10px;right:10px;width:40px;height:40px}
+  #projModal>div>div{padding:18px!important}
+  footer.site .cols{padding:44px 0 28px;gap:26px}
+  .footbar{justify-content:center;text-align:center}
+  .wa-float{display:none}
+  .to-top{right:14px;bottom:78px}
+  body{padding-bottom:calc(74px + env(safe-area-inset-bottom));overflow-wrap:break-word}
+  h1,h2,h3,h4{overflow-wrap:break-word}
+  .mobile-menu{max-height:calc(100vh - 60px);overflow-y:auto}
+  .sticky-wa{padding:8px 10px calc(8px + env(safe-area-inset-bottom))}
+  .sticky-wa .btn{flex:1;justify-content:center;padding:10px 12px;font-size:13.5px;min-height:44px}
+}
+@media(max-width:380px){
+  .logo b{font-size:12px}
+  .lang-switch span{padding:4px 6px;font-size:10.5px}
+  .lang-switch span.ls-ur{font-size:11px}
+  .hero h1{font-size:clamp(27px,8.8vw,34px)}
+  .hero-slider-bar{padding-left:12px;padding-right:12px}
+  .hero-nav button{width:34px;height:34px}
+  .hero-cap{font-size:9.5px;max-width:calc(100% - 84px)}
+  .panel{padding:16px}
+  .card .bd{padding:14px}
+  .feat,.step,.testi{padding:16px}
+  .sec{padding:44px 0}
+}
+@media(max-width:340px){
+  .logo b{display:none}
+  .lang-switch span{padding:3px 5px;font-size:10px}
+  .lang-switch span.ls-ur{font-size:10.5px}
+  .burger{padding:6px}
+  .hero h1{font-size:24px}
+}
 </style>
 </head>
 <body>
